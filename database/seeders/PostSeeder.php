@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class PostSeeder extends Seeder
 {
@@ -15,5 +16,13 @@ class PostSeeder extends Seeder
     public function run()
     {
         //
+        DB::table('posts')->insert([
+            'nama'=> 'Desy Ayurianti',
+            'nim'=> '2141720119',
+            'kelas'=> 'TI 2G',
+            'jurusan'=> 'Teknologi Informasi', 
+            'prodi'=> 'D-IV Teknik Informatika', 
+            'asaldaerah'=> 'Sumenep'
+        ]);
     }
 }
