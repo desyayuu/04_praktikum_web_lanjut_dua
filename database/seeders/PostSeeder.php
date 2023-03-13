@@ -24,7 +24,5 @@ class PostSeeder extends Seeder
             'prodi'=> 'D-IV Teknik Informatika', 
             'asaldaerah'=> 'Sumenep'
         ]);
-
-        // bismillah
     }
 }
