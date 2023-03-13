@@ -24,5 +24,14 @@ class PostSeeder extends Seeder
             'prodi'=> 'D-IV Teknik Informatika', 
             'asaldaerah'=> 'Sumenep'
         ]);
+
+        DB::table('posts')->insert([
+            'nama'=> 'Maria Fadilla',
+            'nim'=> '2141720063',
+            'kelas'=> 'TI 2G',
+            'jurusan'=> 'Teknologi Informasi', 
+            'prodi'=> 'D-IV Teknik Informatika', 
+            'asaldaerah'=> 'Kediri'
+        ]);
     }
 }
