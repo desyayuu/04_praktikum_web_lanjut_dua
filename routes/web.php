@@ -6,6 +6,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PengalamanController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,6 +28,8 @@ Route::get('/', [LandingPageController::class, 'index'])->name('landingpage');
 //Dashboaard
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dash');
 
+//Contact
+Route::get('/contact', [ContactController::class, 'contact'])->name('contact');
 
 //Profile
 // Route::get('/profile/{profile?}', [ProfileController::class, 'profile'])->name('profile');
