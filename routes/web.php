@@ -2,9 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\ProfileController;
+// use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\PengalamanController;
 use App\Http\Controllers\LandingPageController;
+use App\Http\Controllers\PostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,7 +29,11 @@ Route::get('/dashboard', [DashboardController::class, 'index'])->name('dash');
 
 
 //Profile
-Route::get('/profile/{profile?}', [ProfileController::class, 'profile'])->name('profile');
+// Route::get('/profile/{profile?}', [ProfileController::class, 'profile'])->name('profile');
+Route::prefix('/profile')->group(function(){
+    Route::get('/desy', [PostController::class, 'desy'])->name('profileDesy');
+    Route::get('/maria', [PostController::class, 'maria'])->name('profileMaria');
+});
 
 //Pengalaman 
 Route::prefix('pengalaman')->group(function(){

@@ -53,13 +53,13 @@
             </a>
             <ul class="nav nav-treeview">
                 <li class="nav-item">
-                  <a href="{{Route('profile', ['profile' => 'desy']) }}" class="nav-link">
+                  <a href="{{Route('profileDesy') }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Desy Ayurianti</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="{{Route('profile', ['profile' => 'maria']) }}" class="nav-link">
+                  <a href="{{Route('profileMaria') }}" class="nav-link">
                     <i class="far fa-circle nav-icon"></i>
                     <p>Maria Fadilla</p>
                   </a>
