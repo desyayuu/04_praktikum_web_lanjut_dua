@@ -2,7 +2,7 @@
     <!-- Brand Logo -->
     <a href="{{ asset('/') }}index3.html" class="brand-link">
       <img src="{{ asset('/') }}dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">03_PWL_dua</span>
+      <span class="brand-text font-weight-light">04_PWL_dua</span>
     </a>
 
     <!-- Sidebar -->

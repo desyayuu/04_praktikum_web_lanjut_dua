@@ -2,5 +2,5 @@
     <div class="float-right d-none d-sm-block">
       <b>Version</b> 3.2.0
     </div>
-    Tugas Praktikum 2 Desy-Maria 03_praktikum_web_lanjut | <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    Tugas Praktikum 2 Desy-Maria 04_praktikum_web_lanjut | <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
   </footer>
