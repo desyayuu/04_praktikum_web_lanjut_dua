@@ -36,8 +36,6 @@
             <td>{{$desy[0]->jurusan}}</td>
             <td>{{$desy[0]->asaldaerah}}</td>
           </tr>
-        
-        
       </tbody>
     </table>
 </section>
