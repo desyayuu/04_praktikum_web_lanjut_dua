@@ -32,6 +32,7 @@
       <!-- Main content -->
       @yield('content')
       <section class="content">
+        
   
 
 <!-- Control Sidebar -->

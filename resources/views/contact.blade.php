@@ -33,7 +33,7 @@
             </div>
             <div class="card-body">
                 <b><i>Email</b></i><br>
-                desyayuu@gmail.com<br>
+                desii.ayurianti@gmail.com<br>
                 <b><i>Instagram</b></i><br>
                 @_desyayuu
             </div>

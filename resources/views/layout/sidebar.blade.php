@@ -13,9 +13,10 @@
           <img src="{{ asset('/') }}dist/img/desymaria.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Desy-Maria</a>
+          <a href="#" class="d-block">{{auth()->user()->name}}</a>
         </div>
       </div>
+      
 
       <!-- SidebarSearch Form -->
       <div class="form-inline">

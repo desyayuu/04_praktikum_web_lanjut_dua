@@ -7,6 +7,7 @@ use App\Http\Controllers\PengalamanController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\WelcomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,11 +20,15 @@ use App\Http\Controllers\ContactController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('layout.template');
-// });
+Route::get('/', function () {
+    return view('auth.login');
+});
 
-Route::get('/', [LandingPageController::class, 'index'])->name('landingpage');
+Auth::routes();
+
+// Route::get('/', [LandingPageController::class, 'index'])->name('landingpage');
+
+// Route::get('/', [WelcomeController::class, 'index'])->name('welcome');
 
 //Dashboaard
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dash');
@@ -43,3 +48,6 @@ Route::prefix('pengalaman')->group(function(){
     Route::get('/desy', [PengalamanController::class, 'desy'])->name('desypengalaman');
     Route::get('/maria', [PengalamanController::class, 'maria'])->name('mariapengalaman');
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
